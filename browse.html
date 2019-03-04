@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="project3.css">
+  <link rel="stylesheet" type="text/css" href="bulma.css">
+  <style>
+    article{
+      overflow: hidden;
+    }
+
+    figure{
+      transition: all 0.2s
+    }
+
+    figure:hover{
+      transform: scale(1.06);
+    }
+  </style>
+</head>
+
+<body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img
+        src="https://previews.123rf.com/images/kahovsky/kahovsky1709/kahovsky170900155/85563538-vietnam-logo-template-design-vector-modern-line-outline-flat-style-cartoon-character-illustration-ic.jpg"
+        width="80" height="80">
+    </a>
+
+    <a role="button" class="navbar-burger burger"
+       id="navbar_button"
+       aria-label="menu"
+       aria-expanded="false"
+       data-target="navbar_main"
+       onclick="onClickNavbar()"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbar_main" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item buttons">
+        <a href="browse.html" class="button is-primary">
+          <strong>Browse</strong>
+        </a>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="sign-up.html" class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a href="sign-in.html" class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="section">
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+            <p class="title">Khai Dinh Tomb in Hue</p>
+            <figure class="image is-4by3">
+              <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-vietnam/khai_dinh_tomb.jpg?v=1">
+            </figure>
+          </article>
+          <article class="tile is-child notification is-warning">
+            <p class="title">Con Dao Islands</p>
+            <figure class="image is-4by3">
+              <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-vietnam/con_dao_islands.jpg?v=1">
+            </figure>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+            <p class="title">Marble Mountains</p>
+            <figure class="image">
+              <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-vietnam/marble_mountains.jpg?v=1">
+            </figure>
+            <p style="margin-top: 20px">
+              Marble Mountains (Vietnamese: Ngũ Hành Sơn; lit. "five elements mountains") is a cluster of five marble and limestone hills located in Ngũ Hành Sơn District, south of Da Nang city in Vietnam. The five mountains are named after the five elements: Kim (metal), Thuy (water), Moc (wood), Hoa (fire) and Tho (earth).
+
+              All of the mountains have cave entrances and numerous tunnels, and it is possible to climb to the summit of Mount Thuy. Several Buddhist sanctuaries can also be found within the mountains, making this a tourist destination.
+
+              The area is known for stone sculpture making and stone-cutting crafts. Direct rock extraction from the mountains was banned recently. Materials are now being transported from quarries in Quảng Nam
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-danger">
+          <p class="title">Saigon Notre Dame Cathedral</p>
+          <figure class="image is-4by4">
+            <img src="https://www.touropia.com/gfx/d/attractions-in-ho-chi-minh-city/saigon_notre_dame_cathedral.jpg?v=1">
+          </figure>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-success">
+        <div class="content">
+          <p class="title">Old Temple</p>
+          <figure class="image is-3by5">
+            <img src="https://st3.depositphotos.com/3069951/14102/i/1600/depositphotos_141023092-stock-photo-the-brick-ruins-of-an.jpg">
+          </figure>
+          <p>
+            Considered to be Vietnam's most picturesque beach, the white sandy 20-mile stretch of My Khe Beach was named by the American troops who visited during the Vietnam War for R&R. It offers excellent surfing from September just off the shores of Danang. There are also a number of high-end resorts within the vicinity should you be in need of pampering with most offering a rich choice of treatments at their spas and a range of dining options.
+
+            Read more at: http://www.vietnam-guide.com/da-nang/china-beach.htm?cid=ch:OTH:001
+          </p>
+          <p>
+            Sunbathing and surfing aside, there are a host of historical sites situated close by including the port of Hoi An which is only 10 minutes away by bus and offers wonderfully preserved merchant houses and small alleyways to explore. Hoi An is also a superb place to get anything you desire tailor made usually within 12 hours, and while you wait it’s definitely recommended that you try some local delights including very fresh shrimp pancakes.
+
+            Read more at: http://www.vietnam-guide.com/da-nang/china-beach.htm?cid=ch:OTH:001
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+
+<div class="section footer columns">
+  <div class="column">
+    <h3 class="title is-4">Travel</h3>
+    <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+    <p class="footer_link"><a href="#">See how to travel on VietNam</a></p>
+  </div>
+
+
+  <div class="column">
+    <h3 class="title is-4">Host</h3>
+    <p> Renting out your unused space could pay your bills or fund your next vacation.</p>
+    <p class="footer_link"><a href="#">Learn more about hosting</a></p>
+  </div>
+
+  <div class="column">
+    <h3 class="title is-4">Trust and Safety</h3>
+    <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+    <p class="footer_link"><a href="#">Learn about trust at VietNam </a></p>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

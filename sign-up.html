@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="project3.css">
+  <link rel="stylesheet" type="text/css" href="bulma.css">
+</head>
+
+<body style="height:100vh;background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EE2KZGk0lim8pt4em/white-glitter-background-seamless-loop-winter-theme-on-green-background-look-like-snow-computer-generated_rafkpeb4__F0000.png')">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <img
+        src="https://previews.123rf.com/images/kahovsky/kahovsky1709/kahovsky170900155/85563538-vietnam-logo-template-design-vector-modern-line-outline-flat-style-cartoon-character-illustration-ic.jpg"
+        width="80" height="80">
+    </a>
+
+    <a role="button" class="navbar-burger burger"
+       id="navbar_button"
+       aria-label="menu"
+       aria-expanded="false"
+       data-target="navbar_main"
+       onclick="onClickNavbar()"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbar_main" class="navbar-menu">
+    <div class="navbar-start">
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="sign-in.html" class="button is-primary">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<br>
+
+<div>
+  <div id="login">
+    <div class="login-card">
+
+      <div class="card-title">
+        <h1>Sign Up</h1>
+      </div>
+
+      <div class="content">
+        <form method="POST" action="#">
+
+          <input id="email" type="email" name="email" title="email" placeholder="Email" required autofocus>
+          <input id="username" type="text" name="username" title="username" placeholder="Username" required>
+          <input id="password" type="password" name="password" title="password" placeholder="Password" required>
+
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer columns">
+  <div class="column">
+    <h3 class="title is-4">Travel</h3>
+    <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+    <p class="footer_link"><a href="#">See how to travel on VietNam</a></p>
+  </div>
+
+
+  <div class="column">
+    <h3 class="title is-4">Host</h3>
+    <p> Renting out your unused space could pay your bills or fund your next vacation.</p>
+    <p class="footer_link"><a href="#">Learn more about hosting</a></p>
+  </div>
+
+  <div class="column">
+    <h3 class="title is-4">Trust and Safety</h3>
+    <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+    <p class="footer_link"><a href="#">Learn about trust at VietNam </a></p>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
+
